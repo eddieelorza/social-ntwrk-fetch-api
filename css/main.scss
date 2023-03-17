@@ -1,0 +1,59 @@
+
+
+.card{
+    width: 300px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    img{
+        margin-top: 40px;
+        width: 50%;
+        z-index: 1;
+        
+    }
+    .nat-img {
+        margin-top: 0;
+        width: 50px;
+        
+    }
+    .bg-cover{
+       position: absolute;
+         height: 100px;
+        background-color: rgb(121, 124, 204);
+        width: 100%;
+        top: 0;
+    }
+}
+
+.friend-list{
+    height: 200px;
+    overflow: scroll;
+    li > .info-box {
+       
+
+        img{
+        width: 75px;
+        border-radius: 50%;
+        margin-right: 10px;
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h3{
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+                color: #999;
+            }
+            div{
+                width: 300px;
+            }
+        }
+    } 
+}

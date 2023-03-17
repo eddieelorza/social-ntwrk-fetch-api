@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.card img {
+  margin-top: 40px;
+  width: 50%;
+  z-index: 1;
+}
+.card .nat-img {
+  margin-top: 0;
+  width: 50px;
+}
+.card .bg-cover {
+  position: absolute;
+  height: 100px;
+  background-color: rgb(121, 124, 204);
+  width: 100%;
+  top: 0;
+}
+
+.friend-list {
+  height: 200px;
+  overflow: scroll;
+}
+.friend-list li > .info-box img {
+  width: 75px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.friend-list li > .info-box .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.friend-list li > .info-box .info h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.friend-list li > .info-box .info p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #999;
+}
+.friend-list li > .info-box .info div {
+  width: 300px;
+}/*# sourceMappingURL=main.css.map */

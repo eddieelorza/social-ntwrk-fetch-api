@@ -3,6 +3,7 @@ const API_URL = 'https://randomuser.me/api/?results=50&inc=gender,name,nat,dob,p
 const API_USERS = 'https://social-network-api-ffcdb-default-rtdb.firebaseio.com/'
 const COLLECTION = 'users'
 
+
 ///obtener datos de la primera api
 const getUser = async() =>{
     let response = await fetch(`${API_URL}`)
@@ -29,8 +30,7 @@ const addUsers = async (peopleObject) => {
     );
     let data = await response.json();
     console.log(data);
-    // printUsers();
-
+   
    
 
     return data;
@@ -44,7 +44,7 @@ const addUsers = async (peopleObject) => {
         }
     );
     let data = await response.json();
-    
+    // printUsersApi()
     return data;
     };
 
